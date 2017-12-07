@@ -1,0 +1,9 @@
+Lambda {
+    Expr
+        = "λ" Ident "." Expr    -- abstraction
+        | Expr "(" Expr ")"     -- application
+        | Ident                 -- variable
+
+    Ident
+        = letter alnum*
+}

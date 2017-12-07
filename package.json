@@ -1,0 +1,21 @@
+{
+  "name": "crlf-lambda-parser",
+  "version": "0.0.0",
+  "description": "Untyped lambda calculus parser with crlf output.",
+  "bin": {
+    "crlf-lambda-parser": "bin/cli.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "ohm-js": "0.14.0",
+    "yargs": "10.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/crlf-lambda-parser.git"
+  },
+  "contributors": [
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
+}
