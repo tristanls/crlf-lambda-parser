@@ -1,6 +1,6 @@
 {
   "name": "crlf-lambda-parser",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Untyped lambda calculus parser with crlf output.",
   "bin": {
     "crlf-lambda-parser": "bin/cli.js"
